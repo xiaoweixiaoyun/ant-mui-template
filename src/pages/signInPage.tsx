@@ -115,12 +115,12 @@ export default function SignInPage() {
 							<span
 								style={{ color: '#141414', fontSize: '44px', fontWeight: 700 }}
 							>
-								Central
+								MUI
 							</span>
 							<span
 								style={{ color: '#173A76', fontSize: '44px', fontWeight: 700 }}
 							>
-								Kitchen
+								Design
 							</span>
 						</p>
 					}
