@@ -1,0 +1,143 @@
+@import './base.scss';
+
+.left-layout {
+  .ck-menu {
+
+    // Menu bar icon
+    .MuiListItemIcon-root {
+      min-width: 30px !important;
+
+      .MuiIcon-root {
+        font-size: 1rem !important;
+      }
+    }
+
+    // Menu bar secondary menu width
+    .MuiCollapse-wrapper {
+      width: 100% !important;
+    }
+
+    // Menu Bar Level-1 menu
+    .MuiTypography-root {
+      overflow: hidden !important;
+      white-space: nowrap !important;
+      text-overflow: ellipsis !important;
+    }
+
+    // Menu Bar Secondary menu background
+    .MuiCollapse-root {
+      background-color: #143369 !important;
+      padding-right: 16px;
+
+    }
+
+    // Menu Bar The selected menu style
+    .MuiCollapse-vertical {
+      .MuiListItemButton-root {
+        border-radius: 5px;
+      }
+    }
+  }
+}
+
+.ck-search {
+  .MuiGrid-container {
+    >.MuiGrid-item {
+      padding-top: 11px !important;
+    }
+
+    >.MuiGrid-container {
+      >.MuiGrid-item {
+        padding-top: 0 !important;
+      }
+    }
+  }
+}
+
+// popover
+.css-hz1bth-MuiDialog-container {
+  .MuiDialogTitle-root {
+    padding: 9px 16px 5px 16px !important;
+  }
+
+  .MuiIconButton-root {
+    top: 2px !important;
+  }
+}
+
+// select
+.form-control-select {
+  .MuiInputLabel-root {
+    top: -9px !important;
+  }
+}
+
+//text
+.MuiFormControl-root {
+  .MuiInputLabel-root {
+    top: -3px;
+  }
+}
+
+//auto
+.MuiAutocomplete-root {
+  .MuiFormControl-root {
+    .MuiInputLabel-root {
+      top: -3px;
+    }
+  }
+}
+
+.MuiCardContent-root:last-child {
+  padding-bottom: 16px !important;
+}
+
+//Remove the icon through the multiple selection drop-down box
+.MuiChip-deleteIcon {
+  font-size: 16px !important;
+}
+
+.MuiInputBase-root {
+  padding-right: 0 !important;
+
+  .MuiInputAdornment-root {
+    margin-left: 0;
+
+    .MuiIconButton-root {
+      margin-right: 0;
+    }
+  }
+}
+
+// Prompt word font size
+.MuiAlert-message {
+  font-size: 14px !important;
+}
+
+.MuiAutocomplete-option[aria-selected="true"] {
+  color: #1976d2;
+  position: relative;
+  font-weight: bold;
+}
+
+.MuiAutocomplete-option[aria-selected="true"]::after {
+  content: '✔';
+  position: absolute;
+  right: 20px;
+}
+
+.MuiAccordionDetails-root {
+  padding: 8px 12px !important;
+}
+
+.ck-date-picker label[data-shrink="false"] {
+  transform: translate(14px, 9px) scale(1) !important;
+}
+
+.MuiFormControlLabel-label {
+  display: contents;
+}
+
+.MuiAutocomplete-tag svg {
+  display: none;
+}

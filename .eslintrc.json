@@ -1,0 +1,42 @@
+{
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true
+  },
+  "extends": ["prettier", "plugin:react/recommended"],
+  "globals": {
+    "$": true,
+    "process": true,
+    "__dirname": true
+  },
+  "parser": "@babel/eslint-parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true,
+      "tsx": true
+    },
+    "sourceType": "module",
+    "ecmaVersion": 7
+  },
+  "plugins": [
+    "prettier", "react"
+  ],
+  "rules": {
+    "prettier/prettier": "error",
+    "requireConfigFile": 0,
+    "quotes": [2, "single"], //单引号
+    "no-console": 1, //禁示console
+    "no-debugger": 1, //禁示console
+    "no-var": 0, //不禁用var
+    "semi": 2,
+    "react/react-in-jsx-scope": 0,
+    "react-hooks/exhaustive-deps": 0,
+    "react-hooks/rules-of-hooks": 0
+  },
+  "settings": {
+    "import/ignore": [
+      "node_modules"
+    ]
+  }
+}
